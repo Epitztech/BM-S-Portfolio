@@ -1,0 +1,88 @@
+body {
+  font-family: Poppins;
+  background-color: rgb(1, 0, 32);
+  color: rgb(255, 255, 255);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(13, 13, 78);
+  font-size: 1.4rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* hover */
+nav ul li a:hover {
+  text-decoration: underline;
+  color: lavenderblushP;
+  font-size: 1.6rem;
+}
+
+/*! home */
+.home {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+  align-items: center;
+}
+/* !firstsection => home */
+
+.home > div {
+  width: 30%;
+}
+/* ?hleft */
+.hleft {
+  /* background: red; */
+  /* width: 30%; */
+  font-size: 2rem;
+}
+
+#element {
+  color: rgb(97, 16, 173);
+}
+
+.yellow {
+  color: rgb(97, 16, 173);
+}
+
+/* ?hright */
+.hright {
+  /* background: red; */
+  color: rgb(255, 253, 253);
+  /* width: 50%; */
+}
+
+.devimg {
+  width: 80%;
+}
+/* .hhr{
+    width:10%;
+
+} */
+/* ?About */
+
+.about {
+    max-width:80vw ;
+    margin: auto;
+}
